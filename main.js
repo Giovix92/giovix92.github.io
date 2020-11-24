@@ -2,7 +2,6 @@ var dark=true;
 var access = null;
 //Form
 const mainRoute = 'https://feedbackreciever.herokuapp.com';
-//const localRoute = 'http://localhost:3000';
 const amerForm = document.getElementById('amerForm')
 const amerMsges = document.getElementById('msgContainer')
 const amerMsgBtns = document.getElementById('msgSectionEx')
@@ -214,19 +213,21 @@ function sleep(ms){
 
 function link(index){
     var links=[
-        "http://www.ecmt.in/",//College Site
-        "https://skyhawkrecovery.github.io/", //SHRP Site
-        "https://github.com/SKYHAWK-Recovery-Project/shrp_theme_builder/releases", //SHRP Theme builder releases
-        "https://github.com/epicX67/flutterApp_RPSGame", // Simple RPS Game
-        "https://www.github.com/epicX67/documents_KrunkerResourceSwapper", //Krunker Ui Mod
+        "https://www.unimore.it/", // UNIMORE
+        "https://skyhawkrecovery.github.io/", // SHRP Site
+        "https://forum.xda-developers.com/Mi-9/development/rom-revengeos-4-0-mi-9-cepheus-t4173859", // RevengeOS for Mi9
+        "https://forum.xda-developers.com/mi-a1/development/rom-revengeos-3-0-tissot-t4018869", // RevengeOS for Mi A1
+        "https://forum.xda-developers.com/mi-a1/development/recovery-twrp-3-3-1-0-tissot-manager-t3976117", // TWRP Tissot
 
-        "https://drive.google.com/open?id=1qBjhQff5f7znv91xsdM4dr15kQyTg0Tu", //Archives for cool 1 dual
-        "https://mega.nz/folder/KdYCXYRL#Z-qJy_ci8Z7Kz1hXLu3XBA", //Archives for Flame 6
-        "https://mega.nz/folder/mMJi0aqJ#iL4wCX75M64WTuLXrAQ0uA", //Archives for modding guides
+        "https://github.com/Giovix92/CIbot", // CIBot
+        "https://forum.xda-developers.com/redmi-note-7/development/rom-revengeos-3-0-lavender-t4027781", // RevengeOS for Redmi Note 7
+        "https://forum.xda-developers.com/zenfone2/general/tool-ze551mlmodder-t3458145", // ZE55xML_Modder
+        "https://forum.xda-developers.com/mi-a1/development/rom-revengeos-2-2-tissot-t3903425", // RevengeOS 2.x tissot
+        "https://forum.xda-developers.com/zenfone-3/development/recovery-twrp-recovery-zenfone-3-t3910401", // Treble TWRP Zenfone 3
 
-        "https://t.me/epicx67", //Telegram Acc
-        "https://www.youtube.com/c/epicspicy?sub_confirmation=1", //Youtube Channel
-        "https://www.github.com/epicX67", //Github Acc
+        "https://t.me/Giovix92", // Telegram Acc
+        "https://forum.xda-developers.com/member.php?u=7023217", // XDA Profile
+        "https://www.github.com/Giovix92", // Github Acc
         "",
 
 ]
@@ -316,6 +317,12 @@ const repos = [
         org: false,
         user: "Giovix92",
         repo: "device_xiaomi_cepheus-dev"
+    },
+
+    {
+        org: false,
+        user: "Giovix92",
+        repo: "vendor_xiaomi_cepheus-dev"
     },
 
     {
