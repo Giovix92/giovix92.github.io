@@ -1,7 +1,7 @@
 var dark=true;
 var access = null;
 //Form
-const mainRoute = 'https://portfoliofeedback69.herokuapp.com';
+const mainRoute = 'https://feedbackreciever.herokuapp.com';
 //const localRoute = 'http://localhost:3000';
 const amerForm = document.getElementById('amerForm')
 const amerMsges = document.getElementById('msgContainer')
@@ -308,28 +308,28 @@ function removeColorAttributes(id){
 const repos = [
     {
         org: false,
-        user: "epicX67",
-        repo: "documents_KrunkerResourceSwapper",
-        download: {
-            btntxt: 'Download',
-            url: 'https://github.com/epicX67/documents_KrunkerResourceSwapper/archive/master.zip'
-        }
+        user: "Giovix92",
+        repo: "giovix92.github.io"
     },
+
     {
         org: false,
-        user: "epicX67",
-        repo: "epicX67.github.io"
+        user: "Giovix92",
+        repo: "device_xiaomi_cepheus-dev"
     },
-    {
-        org: true,
-        user: "SHRP-Devices",
-        repo: "device_coolpad_c103"
-    },
+
     {
         org: true,
         user: "SKYHAWK-Recovery-Project",
         repo: "shrp_bootable_recovery"
     },
+
+    {
+        org: false,
+        user: "Giovix92",
+        repo: "CIbot"
+    },
+
     {
         org: true,
         user: "SKYHAWK-Recovery-Project",
@@ -338,25 +338,8 @@ const repos = [
 
     {
         org: true,
-        user: "Xperiement",
-        repo: "build_pc",
-        download: {
-            btntxt: 'Try',
-            url: 'https://xperiement.github.io/build_pc/'
-        }
-    },
-
-    {
-        org: true,
         user: "SHRP-Devices",
         repo: "device_data"
-    },
-
-
-    {
-        org: true,
-        user: "SKYHAWK-Recovery-Project",
-        repo: "shrp_theme_builder"
     },
 
     {
@@ -367,22 +350,12 @@ const repos = [
             btntxt: 'Visit',
             url: 'https://skyhawk-recovery-project.github.io'
         }
-    },
-
-    {
-        org: true,
-        user: "SKYHAWK-Recovery-Project",
-        repo: "themeBuilder_extraResources",
-        download: {
-            btntxt: 'Download letest',
-            url: 'https://github.com/SKYHAWK-Recovery-Project/themeBuilder_extraResources/archive/master.zip'
-        }
-    },
+    }
 ]
 
-const myEmail = "souravgain605@gmail.com";
-const orgName = "Sourav Gain"
-const username = "epicX67"
+const myEmail = "ggualtierone@gmail.com";
+const orgName = "Giovanni Gualtieri"
+const username = "Giovix92"
 var commits = []
 const promises = []
 
