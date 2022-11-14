@@ -1,0 +1,9 @@
+- [Home](/)
+- Personal
+  - [About me](/docs/personal/me.md)
+- LineageOS
+  - [Xiaomi Mi 9](/docs/lineageos/cepheus.md)
+  - [Redmi Note 7](/docs/lineageos/lavender.md)
+  - [POCO F4 GT](/docs/lineageos/ingres.md)
+  - [OnePlus Nord 2 5G](/docs/lineageos/denniz.md)
+  - [Xiaomi Pad 5](/docs/lineageos/nabu.md)
