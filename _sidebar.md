@@ -1,6 +1,8 @@
 - [Home](/)
 - Personal
   - [About me](/docs/personal/me.md)
+  - UNICAL
+    - [Guida GNS3 con QEMU](/docs/personal/UNICAL/gns3_qemu.md)
 - LineageOS
   - [Xiaomi Mi 9](/docs/lineageos/cepheus.md)
   - [Redmi Note 7](/docs/lineageos/lavender.md)
