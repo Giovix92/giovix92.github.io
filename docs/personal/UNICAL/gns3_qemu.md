@@ -7,6 +7,7 @@
 - VT-x e/o HyperV abilitato nel BIOS
 - Extra:
   - Linux: Supporto KVM, vedi [qui](#linux-controllare-il-supporto-kvm)
+- Immagine disco: [download](https://drive.google.com/file/d/1zKst_6AwIc05s1g2XU0e5RGS6YLz12dE/view?usp=drivesdk)
 
 E' preferibile utilizzare una distro debian/ubuntu-based.
 
